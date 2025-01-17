@@ -113,6 +113,35 @@ body{
     margin: 20px 0px;
 }
 
-.banner-image{
+.banner-image img{
     width: 100%;
+}
+
+/* responsive mediaquery small device */
+
+@media screen and (max-width: 576px) {
+
+    .container{
+        width: 100%;
+    }
+
+    .nav-bar,.nav-links{
+       
+        flex-direction: column;
+    }
+    .banner-title{
+        font-size: 2.5rem;
+        font-weight: bold;
+    }
+    
+    .banner-content{
+        width: 90%;
+        
+    }
+    .banner-image{
+        width: 90%;
+        margin: auto;
+    }
+
+   
 }
